@@ -6,8 +6,8 @@ services:
     image: "kloudtaxi/sovera-litellm-proxy:1.0"
     environment:
       - "LANGFUSE_HOST=https://us.cloud.langfuse.com"
-      - "LANGFUSE_PUBLIC_KEY=pk-lf-04e7bde2-55ab-44b9-9895-7b5978cd6636"
-      - "LANGFUSE_SECRET_KEY=sk-lf-f5211d12-53b6-4778-90f6-719ed0aba332"
+      - "LANGFUSE_PUBLIC_KEY="
+      - "LANGFUSE_SECRET_KEY="
       - "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
       - "LANG=C.UTF-8"
       - "GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568"
