@@ -17,4 +17,4 @@ celery
 psutil
 mangum
 google-generativeai
-langfuse
+langfuse==1.14.0

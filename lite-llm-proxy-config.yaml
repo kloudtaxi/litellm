@@ -2,27 +2,27 @@ model_list:
   - model_name: gpt-4
     litellm_params:
         model: gpt-4
-        api_key: sk-secret-key-replace-me
+        api_key: sk-PDFGsBL5KAJ1jpGTql....................
   - model_name: gpt-4-8k-latest
     litellm_params:
         model: gpt-4
-        api_key:  sk-secret-key-replace-me
+        api_key:  sk-PDFGsBL5KAJ1jpGTq....................
   - model_name: gpt-4-1106-preview-128k
     litellm_params:
         model: gpt-4-1106-preview
-        api_key:  sk-secret-key-replace-me
+        api_key:  sk-PDFGsBL5KAJ1jpGTql........................
   - model_name: gpt-4-vision-preview-128k
     litellm_params:
         model: gpt-4-vision-preview
-        api_key:  sk-secret-key-replace-me
+        api_key:  sk-PDFGsBL5KAJ1jpGTql......................
   - model_name: gpt-3.5-turbo-1106-16k-latest
     litellm_params:
         model: gpt-3.5-turbo-1106
-        api_key:  sk-secret-key-replace-me
+        api_key:  sk-PDFGsBL5KAJ1jpGTql..............
   - model_name: gpt-3.5-turbo-16k
     litellm_params:
         model: gpt-3.5-turbo-16k
-        api_key:  sk-secret-key-replace-me
+        api_key:  sk-PDFGsBL5KAJ1jpGTql.................
   
 litellm_settings:
   drop_params: True
@@ -34,10 +34,10 @@ litellm_settings:
 
 
 # environment_variables:
-LANGFUSE_PUBLIC_KEY: "pk-langfuse-public-key-replace-me"
-LANGFUSE_SECRET_KEY: "sk-langfuse-private-key-replace-me"
+LANGFUSE_PUBLIC_KEY: "pk-lf-04e7bde2-"
+LANGFUSE_SECRET_KEY: "sk-lf-f5211d12-53b6-"
 LANGFUSE_HOST: "https://us.cloud.langfuse.com"
-# OPENAI_API_KEY: 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
+# OPENAI_API_KEY:
 #  REPLICATE_API_KEY: sk-cohere-is-okay
 #  REDIS_HOST: redis-16337.c322.us-east-1-2.ec2.cloud.redislabs.com
 #  REDIS_PORT: "16337"
